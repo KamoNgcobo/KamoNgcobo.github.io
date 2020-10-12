@@ -1,0 +1,111 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: crimson;
+    width:80%;
+    
+   
+    
+}
+#page{
+    background-color:crimson;
+    width:100%;
+   
+    
+}
+
+
+header{
+    text-align:left;
+    padding:1cm;
+}
+nav{
+    background:crimson;
+    padding:0.5cm;
+    
+    
+}
+nav li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: black;
+    list-style:none;
+    padding-right:0;
+    
+   
+}
+nav a {
+    display: contents;
+    height: 100%;
+    position: absolute;
+    padding: 20px 15px ;
+    font-size: 22px;
+    color:black;
+    text-decoration: black;
+    background-color: grey;
+    transition: 4s;
+   
+   
+    
+}
+nav a hover{
+    color: white;
+}
+#container{
+    display:flex;
+}
+#main{
+    margin-left: 80px;
+    padding: 40px;
+    flex:3;
+
+}
+#right{
+    flex:1;
+}
+#sidebar{
+   
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: grey;
+}
+
+#sidebar ul a{
+    display: block;
+    height:80px;
+    width: 0%;
+    line-height: 65px;
+    font-size: 22px;
+    color: black;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px thin black;
+    border-bottom: 1px thin black;
+    transition: 4s;
+
+}
+
+/*ul li:hover a {
+    padding-left: 50px;
+}
+
+#sidebar ul a i{
+    margin-right: 16px;
+}
+
+#sidebar nav{
+    height: 80%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    opacity: .9;
+    overflow-x: hidden;
+    padding-top: 60px;
+
+}*/
